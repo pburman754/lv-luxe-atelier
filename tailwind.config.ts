@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'playfair': ['Playfair Display', 'serif'],
+        'montserrat': ['Montserrat', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +50,14 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        luxury: {
+          black: "hsl(var(--luxury-black))",
+          white: "hsl(var(--luxury-white))",
+          gold: "hsl(var(--luxury-gold))",
+          'gold-light': "hsl(var(--luxury-gold-light))",
+          beige: "hsl(var(--luxury-beige))",
+          'beige-dark': "hsl(var(--luxury-beige-dark))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
